@@ -1,0 +1,73 @@
+
+h1{
+	color:red;
+	background-color:gold;
+    border:1px groove white;
+    float:left;
+	
+}
+.tv{
+	color:red;
+	background-color:gold;
+    border:1px groove white;
+	
+}
+.text{
+	
+	border:1px groove white;
+	width:200px;
+	height:30px;
+	background-color:MediumBlue;
+}
+p{
+	color:gold;
+}
+.red ul{
+	list-style:none;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+.red ul li{
+	
+	background-color:red;
+	border:1px solid white;
+	margin:2px;
+	width:150px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	float:left;
+	position:relative;
+	border-radius:8px;
+	
+}
+.red ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+.red ul li a:hover{
+	background-color:green;
+	border-radius:8px;
+}
+.red ul ul{
+	position:absolute;
+	display:none;
+}
+.red ul li:hover > ul{
+	display:block;
+}
+.red ul ul ul{
+	position:absolute;
+	display:none;
+	margin-left:150px;
+	top:0px;
+}
+.red ul li:hover > ul{
+	display:block;
+}
+
+	
+	
